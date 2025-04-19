@@ -6,4 +6,15 @@
 #include "flashes.h"
 #include "sensors.h"
 
-#include "structs.h"
+extern "C" {
+    #include "settings.h"
+}
+
+void app_main() {
+    // Доступ к глобальной переменной
+    if (GlobalSettings.ancEnabled) {
+        // Включить ANC
+    }
+
+    GlobalSettings.ancStrength = 90;
+}
