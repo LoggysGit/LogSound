@@ -2,4 +2,6 @@
 #include "SoundBatches.h"
 
 void init_anc();
-SoundBatch process_data_unit(SoundBatch* outer, SoundBatch* inner, SoundBatch* interim);
+SoundBatch* preprocess(SoundBatch* sounds);
+SoundBatch coreAnc(SoundBatch* outer, SoundBatch* inner, SoundBatch* interim);
+SoundBatch postprocess(SoundBatch processed);
