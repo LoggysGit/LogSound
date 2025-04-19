@@ -8,20 +8,19 @@ Settings setts = {
     autoSwitchInput = true,        
     monoModeWhenOneCupOff = true,   
 
-    ancSpectre = 1;      
-    bassBoost;            
-    trebleBoost;           
+    ancSpectre = 0,     
+    bassBoost = 0,           
+    trebleBoost = 0,           
 
-     ledEnabled = true;       
-     isVariableBrightness = true;
-     ledBrightness;    
-     ledVarBrightness;     
-     flashMode;            
+     ledEnabled = true,     
+     isVariableBrightness = true,
+     ledBrightness = 127,   
+     ledVarBrightness = 0, 
+     flashMode = 0,        
 
-     autoPauseOnRemove;       
-     gestureControlEnabled;      
-     isMixStereoOnHalfRemove;   
-     isDownVolInBowl;          
+     autoPauseOnRemove = true,
+     gestureControlEnabled = false,   
+     isDownVolInBowl = true,         
 
-     profileName[16];        
+     profileName[16] = "User";        
 };
