@@ -1,5 +1,9 @@
 #pragma once
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct {
     // Общие пользовательские настройки
     int volume;                      // Громкость
@@ -30,3 +34,9 @@ typedef struct {
     // Пользователь
     char profileName[16];            // Название профиля пользователя
 } Settings;
+
+extern Settings setts
+
+#ifdef __cplusplus
+}
+#endif
