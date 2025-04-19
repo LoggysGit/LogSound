@@ -1,7 +1,6 @@
 #include "Settings.h"
 
-// Определение глобальной переменной
-Settings GlobalSettings = {
+Settings setts = {
     .ancEnabled = true,
     .transparencyMode = false,
     .autoSwitchInput = true,
