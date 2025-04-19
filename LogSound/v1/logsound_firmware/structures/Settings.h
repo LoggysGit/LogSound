@@ -28,7 +28,6 @@ typedef struct {
     // Датчики и поведение
     bool autoPauseOnRemove;          // Авто-пауза при снятии наушников
     bool gestureControlEnabled;      // Включено ли управление жестами
-    bool isMixStereoOnHalfRemove;    // Будут ли сливаться каналы при снятии чаши
     bool isDownVolInBowl;            // Будет ли уменьшаться громкость при полуснятии чаши
 
     // Пользователь
