@@ -11,10 +11,4 @@ extern "C" {
 }
 
 void app_main() {
-    // Доступ к глобальной переменной
-    if (GlobalSettings.ancEnabled) {
-        // Включить ANC
-    }
-
-    GlobalSettings.ancStrength = 90;
 }
