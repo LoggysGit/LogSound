@@ -19,8 +19,8 @@ Settings setts = {
      flashMode = 0,        
 
      autoPauseOnRemove = true,
-     gestureControlEnabled = false,   
+     gestureControlEnabled = true,   
      isDownVolInBowl = true,         
 
-     profileName[16] = "User";        
+     profileName[16] = "User"      
 };
